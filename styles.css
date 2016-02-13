@@ -1,0 +1,65 @@
+#sl-color-merge-icon {
+	background-image: url('images/icon.svg');
+}
+
+#sl-color-merge-icon.active {
+	background-position: 0 -48px;
+}
+
+#sl-color-merge-panel .toolbar {
+	min-height: 25px;
+}
+
+#sl-color-merge-tools {
+	position: absolute;
+	right: 40px;
+}
+
+#sl-color-merge-colors {
+    padding: 10px;
+    margin: 0;
+}
+
+#sl-color-merge-colors li.sl-color-merge-color {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 10px 0;
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3),
+				2px 2px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+	background: linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+	transition: all 0.08s ease-out;
+}
+
+#sl-color-merge-colors li.sl-color-merge-selected {
+	width: 44px;
+	height: 44px;
+	margin: 3px 13px 13px 3px;
+    box-shadow: inset 2px 2px 6px 1px rgba(0, 0, 0, 0.4),
+				2px 2px 3px rgba(255, 255, 255, 0.4);
+}
+
+#sl-color-merge-colors li.sl-color-merge-last-selected {
+    box-shadow: inset 2px 2px 6px 1px rgba(0, 0, 0, 0.4),
+				2px 2px 3px rgba(255, 255, 255, 0.4),
+				0 0 0 8px rgba(0, 0, 0, 0.12);
+}
+
+#sl-color-merge-colors li p {
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 0px 1px 0px #fff;
+    opacity: 1;
+    text-align: center;
+    margin-top: 16px;
+    opacity: 0.5;
+    transition: all 0.08s ease-out;
+}
+
+#sl-color-merge-colors li.sl-color-merge-selected p {
+    margin-top: 13px;
+}
