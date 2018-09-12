@@ -2,7 +2,7 @@ define(function (require, exports, module) {
     "use strict";
     
     var ExtensionUtils = brackets.getModule('utils/ExtensionUtils');
-    var PanelManager = brackets.getModule( 'view/PanelManager' );
+    var PanelManager = brackets.getModule( 'view/WorkspaceManager' );
     var Resizer = brackets.getModule('utils/Resizer');
 	var DocumentManager = brackets.getModule('document/DocumentManager');
 	var ColorUtils = brackets.getModule('utils/ColorUtils');

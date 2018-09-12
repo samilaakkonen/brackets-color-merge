@@ -2,7 +2,7 @@
     "name": "color-merge",
     "title": "Color Merge",
     "description": "Finds all colors from the document and let's you choose and merge similar colors.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Sami Laakkonen <sami.p.laakkonen@gmail.com>",
     "license": "MIT",
     "categories" : "color",
